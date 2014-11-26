@@ -1,24 +1,25 @@
 Automatic Rehearsal booking
 ===========================
 
-
 Dependencies
 ------------
 
-download gdata and gspread 
+download [gdata](https://code.google.com/p/gdata-python-client/downloads/list) and [gspread](https://github.com/quimnuss/gspread)
 
-https://code.google.com/p/gdata-python-client/downloads/list
-https://github.com/quimnuss/gspread
-
+sudo apt-get install python-bs4
 
 you can install both with python setup.py --user
 
 (use python setup.py --help for a list of installation options)
 
+install [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup)
+
+I didn't have to, but maybe you need [Requests](http://docs.python-requests.org/en/latest/user/install/#install)
+
 Configuration
 -------------
 
-add the tuna brix password to the script and add the spreadsheet url (TODO: scan the musical webpage and retrieve the spreadsheet url)
+if you want to automatically log in add the tuna brix password to the script
 
 Execution
 ---------
