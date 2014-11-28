@@ -1,0 +1,3 @@
+[submodule "python/submoduled/autoRehearsal"]
+	path = python/submoduled/autoRehearsal
+	url = https://github.com/quimnuss/autoRehearsal.git
